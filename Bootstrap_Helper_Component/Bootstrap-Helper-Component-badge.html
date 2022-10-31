@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Helper Component</title>
+
+    <!-- INCLUDE CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    
+    <!-- contextual Badges -->
+    <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+
+    <button type="button" class="btn btn-primary">Notification <span class="badge text-bg-secondary">4</span></button>
+
+    <!-- Positins -->
+    <button type="button" class="btn btn-primary position-relative">
+        Inbox
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        99+
+        <span class="visually-hidden">unread message</span>
+    </span>
+</button>
+
+<button type="button" class="btn btn-primary position-relative">
+    Profile
+    <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+        <span class="visually-hidden">New alert</span>
+    </span>
+</button>
+<br>
+
+<h1>Example <span class="badge bg-primary">1</span></h1>
+<h1>Example <span class="badge bg-secondary">2</span></h1>
+<h1>Example <span class="badge bg-success">3</span></h1>
+<h1>Example <span class="badge bg-info">4</span></h1>
+<h1>Example <span class="badge bg-warning">5</span></h1>
+<h1>Example <span class="badge bg-danger">6</span></h1>
+<h1>Example <span class="badge bg-dark">7</span></h1>
+
+
+<!-- PILL BADGES -->
+<span class="badge rounded-pill text-bg-primary">Primary</span>
+<span class="badge rounded-pill text-bg-secondary">Secondary</span>
+<span class="badge rounded-pill text-bg-success">success</span>
+<span class="badge rounded-pill text-bg-info">Info</span>
+<span class="badge rounded-pill text-bg-warning">Warning</span>
+<span class="badge rounded-pill text-bg-danger">Danger</span>
+<span class="badge rounded-pill text-bg-light">Light</span>
+<span class="badge rounded-pill text-bg-dark">Dark</span>
+
+<hr>
+
+    <!-- alert -->
+    <div class="alert alert-success">
+        <strong>Success!</strong> Save data success
+    </div>
+    <div class="alert alert-info">
+        <strong>Info!</strong> Anda memiliki pesan baru
+    </div>
+    <div class="alert alert-warning">
+        <strong>Warning!</strong> Anda memiliki tagihan 
+    </div>
+    <div class="alert alert-danger">
+        <strong>Danger!</strong> Simpan data gagal
+    </div>
+    <div class="alert alert-secondary">
+        <strong>Seconday!</strong> Alert menggunakan classs secondary
+    </div>
+    <div class="alert alert-primary">
+        <strong>Primary!</strong> Alert menggunakan class primary
+    </div>
+    <div class="alert alert-dark">
+        <strong>Dark!</strong> Alert menggunakan class dark
+    </div>
+    <div class="alert alert-light">
+        <strong>Light!</strong> Alert menggunakan class light
+    </div>
+    <div>
+        A Simple primary alert with <a href="bootstrap-helper-component-2.html">goto link</a>
+    </div>
+</body>
+</html>
